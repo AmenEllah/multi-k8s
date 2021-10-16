@@ -2,9 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="244d9394-4c59-42ea-be6e-70267c895182" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/client-deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/database-persistent-volume-claim.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/ingress-service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/postgres-cluster-ip-service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/postgres-deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/redis-cluster-ip-service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/redis-deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/server-cluster-ip-service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/server-deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/worker-deployment.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerrun.aws.json" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/client-cluster-ip-service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/nginx/default.conf" beforeDir="false" afterPath="$PROJECT_DIR$/client/nginx/default.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/Dockerfile.dev" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/default.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +48,17 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/k8s" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Formations\Docker-Kubernetes\complex" />
+      <recent name="C:\Formations\Docker-Kubernetes\complex\k8s" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Formations\Docker-Kubernetes\complex\k8s" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -43,7 +71,13 @@
       <option name="presentableId" value="Default" />
       <updated>1633440221374</updated>
       <workItem from="1633440222657" duration="815000" />
-      <workItem from="1633638752503" duration="4512000" />
+      <workItem from="1633638752503" duration="5217000" />
+      <workItem from="1633686943963" duration="4679000" />
+      <workItem from="1633881827992" duration="1822000" />
+      <workItem from="1633944615958" duration="1247000" />
+      <workItem from="1634201994357" duration="737000" />
+      <workItem from="1634208718134" duration="10444000" />
+      <workItem from="1634296501278" duration="5836000" />
     </task>
     <servers />
   </component>
@@ -51,9 +85,13 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="313" y="168" key="com.intellij.ide.util.TipDialog" timestamp="1633638761590">
+    <state x="313" y="168" key="com.intellij.ide.util.TipDialog" timestamp="1634296518249">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="313" y="168" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1633638761590" />
+    <state x="313" y="168" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1634296518249" />
+    <state x="-9" y="10" width="672" height="678" key="search.everywhere.popup" timestamp="1634220710831">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="-9" y="10" width="672" height="678" key="search.everywhere.popup/0.0.1280.689@0.0.1280.689" timestamp="1634220710831" />
   </component>
 </project>
